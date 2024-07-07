@@ -7,7 +7,7 @@ const MenuLink = (props) => {
     return (
         <Link className={`
             ${styles.link}
-            ${localizacao.pathname === props.pasta ? styles.linkDestacado : ''}
+            ${(localizacao.pathname === props.pasta || localizacao.pathname === props.pastaDois) ? styles.linkDestacado : ''}
         `} to={props.pasta}>
             {props.nome}
         </Link>
