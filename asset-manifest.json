@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/olamundo/static/css/main.2edb5916.css",
-    "main.js": "/olamundo/static/js/main.baa9d778.js",
+    "main.css": "/olamundo/static/css/main.67f3a92f.css",
+    "main.js": "/olamundo/static/js/main.e6de36e6.js",
     "static/media/gif-2.gif": "/olamundo/static/media/gif-2.e2d2ee21c2b932209602.gif",
     "static/media/capa.png": "/olamundo/static/media/capa.d5fdfe968b7ca6bb58ba.png",
     "static/media/sobre_mim_capa.png": "/olamundo/static/media/sobre_mim_capa.e14cf8593039831a7a7a.png",
@@ -10,11 +10,11 @@
     "static/media/gif-1.gif": "/olamundo/static/media/gif-1.4ab940daeb468b95846c.gif",
     "static/media/marca_registrada.svg": "/olamundo/static/media/marca_registrada.fd230562dcd9ba45061e083be6216066.svg",
     "index.html": "/olamundo/index.html",
-    "main.2edb5916.css.map": "/olamundo/static/css/main.2edb5916.css.map",
-    "main.baa9d778.js.map": "/olamundo/static/js/main.baa9d778.js.map"
+    "main.67f3a92f.css.map": "/olamundo/static/css/main.67f3a92f.css.map",
+    "main.e6de36e6.js.map": "/olamundo/static/js/main.e6de36e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.2edb5916.css",
-    "static/js/main.baa9d778.js"
+    "static/css/main.67f3a92f.css",
+    "static/js/main.e6de36e6.js"
   ]
 }
