@@ -1,4 +1,3 @@
-import OutrosPosts from 'componentes/OutrosPosts';
 import styles from './PostModelo.module.css'
 
 const PostModelo = ({fotoCapa, titulo, children}) => {
@@ -13,7 +12,6 @@ const PostModelo = ({fotoCapa, titulo, children}) => {
             <div className={styles.postConteudoContainer}>
                 {children}
             </div>
-            <OutrosPosts titulo="Outros posts que você pode gostar:"/>
         </article>
     )
 }

@@ -14,13 +14,12 @@ function AppRoutes() {
     <ScrollToTop />
       <Menu />
         <Routes>
-          <Route path='/' element={<PaginaPadrao />}>
-            <Route index element={<Inicio/>}/>
+          <Route path='/olamundo' element={<PaginaPadrao />}>
             <Route path='/olamundo' element={<Inicio/>}/>
-            <Route path='sobremim' element={<SobreMim/>}/>
+            <Route path='/olamundo/sobremim' element={<SobreMim/>}/>
           </Route>
 
-          <Route path='posts/:id/*' element={<Post/>}/>
+          <Route path='/olamundo/posts/:id/*' element={<Post/>}/>
           <Route path='*' element={<NaoEncontrada />}/>
         </Routes>
       <Rodape />

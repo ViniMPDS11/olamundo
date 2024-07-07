@@ -6,7 +6,7 @@ const PostCard = (props) => {
     const capa = require(`assets/posts/${props.post.id}/capa.png`);
 
     return (
-        <Link to={`/posts/${props.post.id}`}>
+        <Link to={`/olamundo/posts/${props.post.id}`}>
             <div className={styles.post}>
                 <img 
                     className={styles.capa}

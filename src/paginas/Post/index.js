@@ -5,6 +5,7 @@ import PostModelo from 'componentes/PostModelo';
 import './Post.css'
 import NaoEncontrada from 'paginas/NaoEncontrada';
 import PaginaPadrao from 'componentes/PaginaPadrao';
+import OutrosPosts from 'componentes/OutrosPosts';
 
 // Configuração para importar imagens dinamicamente
 const importAll = (r) => {
@@ -57,6 +58,7 @@ const Post = () => {
                                     {post.texto}
                                 </ReactMarkDown>
                             </div>
+                            <OutrosPosts titulo="Outros posts que você pode gostar:"/>
                         </PostModelo>
                     }
                 />

@@ -7,8 +7,8 @@ const Menu = () => {
     return (
         <header>
             <nav className={styles.navegacao}>
-                <MenuLink nome='Início' pasta='/'pastaDois='/olamundo'/>
-                <MenuLink nome='Sobre Mim' pasta='/sobremim'/>
+                <MenuLink nome='Início' pasta='/olamundo'/>
+                <MenuLink nome='Sobre Mim' pasta='/olamundo/sobremim'/>
             </nav>
         </header>
     );
